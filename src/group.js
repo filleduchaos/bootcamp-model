@@ -1,6 +1,6 @@
 'use strict';
 
-var Camper = require('./camper.js);
+var Camper = require('./camper.js');
 var BFA = require('./bfa.js');
 
 class Group {
