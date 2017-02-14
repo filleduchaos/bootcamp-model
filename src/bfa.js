@@ -15,7 +15,7 @@ class BFA extends Camper {
         return this.group.add(camper);
       } else if (camper.getGroupID() === this.groupID) {
         return `${camper.getFullName()} is already part of Group ${this.groupID}`;
-      } else return `Not authorized to remove ${camper.getFullName()} from Group ${camper.getGroupID()}.`;
+      } else return `Not authorized to remove ${camper.getFullName()} from Group ${camper.getGroupID()}`;
     } else return 'Argument is not a Camper.';
   }
   
@@ -24,8 +24,8 @@ class BFA extends Camper {
       if (camper.getGroupID() === this.groupID) {
         return this.group.remove(camper);
       } else if (camper.getGroupID() === 0) {
-        return `${camper.getFullName()} is not a member of any groups.`;
-      } else return `Not authorized to remove ${camper.getFullName()} from Group ${camper.getGroupID()}.`;
+        return `${camper.getFullName()} is not a member of any groups`;
+      } else return `Not authorized to remove ${camper.getFullName()} from Group ${camper.getGroupID()}`;
     } else return 'Argument is not a Camper.';
   }
   

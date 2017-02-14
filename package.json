@@ -1,0 +1,21 @@
+{
+  "name": "bootcamp-model",
+  "version": "1.0.0",
+  "description": "JavaScript project for Andela Home Study Day 1 (OOP - Bootcamp Model)",
+    "author": "Princess-Jewel Essien",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine spec/oop-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princess-essien/bootcamp-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/princess-essien/bootcamp-model/issues"
+  },
+  "homepage": "https://github.com/princess-essien/bootcamp-model#readme",
+  "dependencies": {
+    "jasmine": "^2.5.0"
+  }
+}
